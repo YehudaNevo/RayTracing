@@ -43,6 +43,8 @@ public:
 		m_LastRenderTime = timer.ElapsedMillis();
 	}
 private:
+	
+private:
 
 	Renderer m_Renderer;
 	uint32_t m_ViewportWidth = 0;
